@@ -1,0 +1,19 @@
+.hero{
+    background-color: var(--color-black);
+    height: 200px;
+    color:white;
+    /* display: flex; */
+    text-align: center;
+    
+}
+.heroImage{
+    height: 150px;
+    /* width: 50px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* display: flex; */
+}
+.heroText{
+ color: white;
+}
