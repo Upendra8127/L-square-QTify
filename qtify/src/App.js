@@ -4,18 +4,12 @@ import Hero from './components/Hero/Hero';
 import Section from './components/Section/Section';
 import { fetchTopSongs } from './api/api';
 
-function App() {
-  useEffect(() => {
-    fetchTopSongs().then((data)=>{
-      console.log(data);
-    });
-  }, [])
-  
+function App() { 
   return (
    <>
    <Navbar />
    <Hero/>
-   <Section title="Top Albums"/>
+   {/* <Section title= "Top Albums" dataSource={fetchTopSongs}/> */}
    </>
   )
 }

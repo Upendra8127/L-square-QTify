@@ -10,6 +10,8 @@
 }
 .wrapper{
     display: flex;
+    align-items: stretch;
+    height: 45px;
     
 }
 .searchButton{
